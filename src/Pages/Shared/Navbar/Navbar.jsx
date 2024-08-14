@@ -76,9 +76,9 @@ const Navbar = () => {
             ></div>
           )}
           <div
-            className={`absolute bg-[#f5f5f5] flex flex-col gap-5 border p-5 ${
+            className={`absolute bg-[#f5f5f5] flex flex-col transition duration-500 delay-200 gap-5 border p-5 ${
               open
-                ? "w-[60%] md:w-[40%] h-full top-0 right-0 transition duration-500 delay-200"
+                ? "w-[70%] md:w-[40%] h-full top-0 right-0 "
                 : "-left-56 top-0"
             }`}
           >
