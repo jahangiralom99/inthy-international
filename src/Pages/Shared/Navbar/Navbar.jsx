@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/Logo-new.png";
 import PhoneLogo from "../../../assets/phone.png";
 import { IoMenu } from "react-icons/io5";
@@ -55,7 +55,9 @@ const Navbar = () => {
     <nav className="border">
       <div className="flex justify-between items-center  p-2 max-w-screen-xl mx-auto px-4">
         <div>
-          <img className="w-36" src={logo} alt="logo" />
+          <Link to="/">
+            <img className="w-36" src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="lg:flex gap-6 uppercase font-semibold hidden">
           {navLinks}
@@ -65,7 +67,7 @@ const Navbar = () => {
           <p>01925921227/01675957881</p>
         </div>
         {/* side Bar for Phone  */}
-        <div className="lg:hidden">
+        <div className="lg:hidden z-50">
           <div onClick={() => setOpen(!open)}>
             <IoMenu className="text-5xl bg-[#549708] rounded-full text-white p-2" />
           </div>

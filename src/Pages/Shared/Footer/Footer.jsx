@@ -6,7 +6,7 @@ import { FaFacebookF, FaLinkedinIn, FaPinterest, FaTelegram, FaTwitter } from "r
 
 const Footer = () => {
   return (
-    <footer className="bg-[#158436]">
+    <footer className="bg-[#158436] mt-12">
       <div className="max-w-screen-xl mx-auto px-4 p-8 flex flex-col lg:flex-row gap-8 justify-between ">
         {/* logo */}
         <div className="lg:flex-1">
