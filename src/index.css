@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body{
+  font-weight: var(--wd-title-font-weight);
+  font-style: var(--wd-title-font-style);
+  font-family: var(--wd-title-font);
+} */
