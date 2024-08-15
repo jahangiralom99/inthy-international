@@ -4,6 +4,7 @@ import image3 from "../../assets/5-252x300.png";
 import image4 from "../../assets/3-2.png";
 import point from "../../assets/point.png";
 import star from "../../assets/star.png";
+import image5 from "../../assets/4-2.jpg";
 
 const Product = () => {
   return (
@@ -178,6 +179,59 @@ const Product = () => {
             calls on your face or body and giving it a fresh look.
           </p>
         </div>
+        <div>
+          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          Vitamin E:
+          </h4>
+          <p className="mt-3 text-slate-600">
+            A skin whitening soap works by removing melanin from your skin’s
+            epidermal layer, making it look white and fairer then other areas on
+            the body. Furthermore, this type of soap Works by removing the dead
+            calls on your face or body and giving it a fresh look.
+          </p>
+        </div>
+        <div>
+          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          L-Glutathione:
+          </h4>
+          <p className="mt-3 text-slate-600">
+            A skin whitening soap works by removing melanin from your skin’s
+            epidermal layer, making it look white and fairer then other areas on
+            the body. Furthermore, this type of soap Works by removing the dead
+            calls on your face or body and giving it a fresh look.
+          </p>
+        </div>
+        <div>
+          <h4 className="text-xl text-[#821a1a] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          DIRECTION OF USE
+          </h4>
+          <p className="mt-3 text-slate-600">
+            A skin whitening soap works by removing melanin from your skin’s
+            epidermal layer, making it look white and fairer then other areas on
+            the body. Furthermore, this type of soap Works by removing the dead
+            calls on your face or body and giving it a fresh look.
+          </p>
+        </div>
+        <div>
+          <h4 className="text-xl text-red-500 mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          WARNINIGS
+          </h4>
+          <p className="mt-3 text-slate-600">
+            A skin whitening soap works by removing melanin from your skin’s
+            epidermal layer, making it look white and fairer then other areas on
+            the body. Furthermore, this type of soap Works by removing the dead
+            calls on your face or body and giving it a fresh look.
+          </p>
+        </div>
+        <div>
+          <h4 className="text-xl text-[#0019bc] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          SUPPLY : 75gm Per PACK.
+          </h4>
+        </div>
+      </div>
+      {/* Image  */}
+      <div className="mt-8">
+        <img className="rounded-lg" src={image5} alt="image " />
       </div>
     </div>
   );

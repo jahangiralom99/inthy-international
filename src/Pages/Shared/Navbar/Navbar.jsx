@@ -3,6 +3,7 @@ import logo from "../../../assets/Logo-new.png";
 import PhoneLogo from "../../../assets/phone.png";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -18,16 +19,37 @@ const Navbar = () => {
       </NavLink>
       <hr className="lg:hidden" />
       <NavLink
-        to="/product"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
             : isActive
-            ? "text-[#f97c00]"
-            : " hover:text-[#f97c00]"
+            ? "text-[#f97c00] group"
+            : " hover:text-[#f97c00] group"
         }
       >
-        Product
+        <ul className="relative ">
+          <Link className="flex uppercase items-center  font-bold gap-1">
+            Product <IoIosArrowDown />
+          </Link>
+          <ul className="absolute bg-white top-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
+            <div className="p-5 w-44">
+              <li className="flex flex-col gap-2">
+                <Link to="/product" className="font-bold">
+                  Product 1
+                </Link>
+                <Link to="/product1" className="font-bold">
+                  Product 2
+                </Link>
+                <Link to="/product2" className="font-bold">
+                  Product 3
+                </Link>
+                <Link to="/product3" className="font-bold">
+                  Product 4
+                </Link>
+              </li>
+            </div>
+          </ul>
+        </ul>
       </NavLink>
       <hr className="lg:hidden" />
       <NavLink
