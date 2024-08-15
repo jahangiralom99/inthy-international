@@ -4,7 +4,7 @@ import Footer from "./Pages/Shared/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div >
       <Navbar/>
       <div >
       <Outlet />

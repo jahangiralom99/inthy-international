@@ -4,7 +4,7 @@ import image3 from "../../assets/pic-3.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-screen-xl mt-6 mx-auto px-4 text-[#333] flex flex-col md:flex-row gap-5">
+    <div className="max-w-screen-lg mt-6 mx-auto px-4 text-[#333] flex flex-col md:flex-row gap-5">
       {/* About us Text */}
       <div>
         <div>

@@ -19,32 +19,37 @@ const Navbar = () => {
       </NavLink>
       <hr className="lg:hidden" />
       <NavLink
+        to="/card"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
             : isActive
-            ? "text-[#f97c00] group"
+            ? "group text-[#f97c00]"
             : " hover:text-[#f97c00] group"
         }
       >
         <ul className="relative ">
-          <Link className="flex uppercase items-center  font-bold gap-1">
+          <Link
+            to="/card"
+            className="flex uppercase items-center  font-bold gap-1"
+          >
             Product <IoIosArrowDown />
           </Link>
-          <ul className="absolute bg-white top-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
-            <div className="p-5 w-44">
-              <li className="flex flex-col gap-2">
-                <Link to="/product" className="font-bold">
-                  Product 1
+          <ul className="absolute bg-white top-4 -left-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
+            <div className="p-5 lg:w-96 ">
+              <li className="flex flex-col gap-4">
+                <Link to="/product" className="text-sm font-semibold hover:text-[#f97c00]">
+                  INTHYSUN Aqua Gel – Unique New Generation Efficient
+                  Photostable Sunscreen
                 </Link>
-                <Link to="/product1" className="font-bold">
+                <Link to="/product1" className="text-sm font-semibold hover:text-[#f97c00]">
+                  INTHYOU SOAP – Skin Lightening & Brightening Soap
+                </Link>
+                <Link to="/product2" className="text-sm font-semibold hover:text-[#f97c00]">
                   Product 2
                 </Link>
-                <Link to="/product2" className="font-bold">
+                <Link to="/product3" className="text-sm font-semibold hover:text-[#f97c00]">
                   Product 3
-                </Link>
-                <Link to="/product3" className="font-bold">
-                  Product 4
                 </Link>
               </li>
             </div>
@@ -62,7 +67,7 @@ const Navbar = () => {
       </NavLink>
       <hr className="lg:hidden" />
       <NavLink
-        to="/contact"
+        to="/contact-us"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "text-[#f97c00]" : ""
         }
