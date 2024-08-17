@@ -38,18 +38,48 @@ const Navbar = () => {
           <ul className="absolute bg-white top-4 -left-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
             <div className="p-5 lg:w-96 ">
               <li className="flex flex-col gap-4">
-                <Link to="/product" className="text-sm font-semibold hover:text-[#f97c00]">
+                <Link
+                  to="/product"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
                   INTHYSUN Aqua Gel – Unique New Generation Efficient
-                  Photostable Sunscreen
+                  Photostable Sunscreen (1)
                 </Link>
-                <Link to="/product1" className="text-sm font-semibold hover:text-[#f97c00]">
-                  INTHYOU SOAP – Skin Lightening & Brightening Soap
+                <Link
+                  to="/product1"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
+                  INTHYOU SOAP – Skin Lightening & Brightening Soap (2)
                 </Link>
-                <Link to="/product2" className="text-sm font-semibold hover:text-[#f97c00]">
-                  Product 2
-                </Link>
-                <Link to="/product3" className="text-sm font-semibold hover:text-[#f97c00]">
+                <Link
+                  to="/product2"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
                   Product 3
+                </Link>
+                <Link
+                  to="/product3"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
+                  Product 4
+                </Link>
+                <Link
+                  to="/product4"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
+                  Product 5
+                </Link>
+                <Link
+                  to="/product5"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
+                  Product 6
+                </Link>
+                <Link
+                  to="/product6"
+                  className="text-sm font-semibold hover:text-[#f97c00]"
+                >
+                  Product 7
                 </Link>
               </li>
             </div>
