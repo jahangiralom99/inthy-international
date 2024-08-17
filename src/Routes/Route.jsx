@@ -8,6 +8,7 @@ import Product1 from "../Pages/Product/Product1";
 import Card from "../Pages/Product/Card";
 import Product2 from "../Pages/Product/Product2";
 import Product3 from "../Pages/Product/Product3";
+import Product4 from "../Pages/Product/Product4";
 
 const Route = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const Route = createBrowserRouter([
       },
       {
         path: "/product1",
-        element: <Product3 />,
+        element: <Product4 />,
       },
       {
         path: "/about-us",
