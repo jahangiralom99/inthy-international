@@ -31,27 +31,27 @@ const Route = createBrowserRouter([
       },
       {
         path: "/product1",
-        element: <Product1/>
+        element: <Product1 />,
       },
       {
         path: "/product2",
-        element: <Product2/>
+        element: <Product2 />,
       },
       {
         path: "/product3",
-        element: <Product3/>
+        element: <Product3 />,
       },
       {
         path: "/product4",
-        element: <Product4/>
+        element: <Product4 />,
       },
       {
         path: "/product5",
-        element: <Product5/>
+        element: <Product5 />,
       },
       {
         path: "/product6",
-        element: <Product6/>
+        element: <Product6 />,
       },
       {
         path: "/about-us",
