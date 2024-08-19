@@ -1,13 +1,13 @@
-import image1 from "../../assets/2-1.png";
-import image2 from "../../assets/1-1.png";
-import image4 from "../../assets/3-1.png";
+import image1 from "../../assets/Screenshot_2024-08-19_131927-removebg-preview.png";
+import image2 from "../../assets/Screenshot_2024-08-19_131909-removebg-preview.png";
+import image4 from "../../assets/Screenshot_2024-08-19_131943-removebg-preview.png";
 import point from "../../assets/point.png";
 import star from "../../assets/star.png";
 import image5 from "../../assets/Screenshot 2024-08-17 150437.png";
 
 const Product4 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mt-6 bg-[#fce2ee] rounded-lg">
+    <div className="max-w-screen-xl mx-auto pt-6 bg-[#fce2ee] rounded-lg">
       {/* <h1 className="text-2xl font-bold">Product</h1> */}
       {/* Image section  */}
       <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-4">
@@ -47,7 +47,7 @@ const Product4 = () => {
         </div>
       </div>
       {/* text section */}
-      <div className="mt-8">
+      <div className="mt-8 px-4">
         {/* <h2 className="text-center text-2xl font-semibold text-[#ed7e00]">
           Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
         </h2> */}
@@ -110,7 +110,7 @@ const Product4 = () => {
         </div>
 
         {/* COMPOSITION */}
-        <div className="mt-14">
+        <div className="mt-8 lg:ml-6">
           <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#9c00ea] ">
             COMPOSITION:
           </h3>
@@ -135,15 +135,13 @@ const Product4 = () => {
             </div>
             <div className="flex gap-6 items-center">
               <img className="w-5" src={star} alt="point" />
-              <p className="text-[17px]  font-bold">
-              with Biotin & aloevera 
-              </p>
+              <p className="text-[17px]  font-bold">with Biotin & aloevera</p>
             </div>
           </div>
         </div>
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto mt-12">
+      <div className="lg:max-w-[900px] mx-auto mt-8 px-4">
         {/* <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-red-500">
           DESCRIPTION:
         </h3>
@@ -163,47 +161,55 @@ const Product4 = () => {
             working for serveral days..
           </span>
         </p> */}
-        <h3 className="text-2xl mt-12 lg:max-w-[900px] mx-auto font-bold text-[#ed028c]">
+        <h3 className="text-2xl mt-8 lg:max-w-[900px] mx-auto font-bold text-[#ed028c]">
           INGREDIENTS :
         </h3>
         <div>
-          <h4 className="text-xl mt-8 text-[#2e3092] lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl mt-6 text-[#2e3092] lg:max-w-[900px] mx-auto font-semibold">
             Ketoconazole:
           </h4>
           <p className="mt-3 text-slate-600">
-          It is an azolo antifungal that works by preventing the growth of fungus longer duration of action after the soap is washed out.
+            It is an azolo antifungal that works by preventing the growth of
+            fungus longer duration of action after the soap is washed out.
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#00a54f] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#00a54f] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Zinc pyrithione:
           </h4>
           <p className="mt-3 text-slate-600">
-          It has antifungal anti bacterial and antimicrobial properties that can help seborrhoeic dermatitis, scalp psoriasis and acne. It can inhibit the growth of yeast which is the main factor in dandruff.
+            It has antifungal anti bacterial and antimicrobial properties that
+            can help seborrhoeic dermatitis, scalp psoriasis and acne. It can
+            inhibit the growth of yeast which is the main factor in dandruff.
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#ed028c] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#ed028c] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Aloe vera :
           </h4>
           <p className="mt-3 text-slate-600">
-          Aloe vera helps treat inflammation, wounds and burns. The anti-allergic property of aloe vera is a useful in the treatment of various skin diseases like eczema, psoriasis, itchy skin and so on.
+            Aloe vera helps treat inflammation, wounds and burns. The
+            anti-allergic property of aloe vera is a useful in the treatment of
+            various skin diseases like eczema, psoriasis, itchy skin and so on.
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#2e3092] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#2e3092] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Biotin :
           </h4>
           <p className="mt-3 text-slate-600">
-          Biotin Stimulates keratin production in hair and Increases the rate of follicle growth
+            Biotin Stimulates keratin production in hair and Increases the rate
+            of follicle growth
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#00a54f] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#00a54f] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             DIRECTION OF USE:
           </h4>
           <p className="mt-3 text-slate-600">
-          Inthyzol shampoo should be used two (2) times in every week for consecutive 2-4 weeks. To prevent dandruff further back its should use again another 1-2 weeks (once/week)
+            Inthyzol shampoo should be used two (2) times in every week for
+            consecutive 2-4 weeks. To prevent dandruff further back its should
+            use again another 1-2 weeks (once/week)
           </p>
         </div>
         {/* <div>
@@ -218,7 +224,7 @@ const Product4 = () => {
           </p>
         </div> */}
         <div>
-          <h4 className="text-xl text-[#0019bc] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#0019bc] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             SUPPLY : 100 ml per bottle.
           </h4>
         </div>

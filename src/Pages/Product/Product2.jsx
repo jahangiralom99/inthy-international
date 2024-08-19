@@ -1,20 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
-import image1 from "../../assets/2-1.png";
-import image2 from "../../assets/1-1.png";
-import image4 from "../../assets/3-1.png";
+import image1 from "../../assets/Screenshot_2024-08-19_115226-removebg-preview.png";
+import image2 from "../../assets/Screenshot_2024-08-19_115102-removebg-preview.png";
+import image4 from "../../assets/Screenshot_2024-08-19_115204-removebg-preview.png";
+import image41 from "../../assets/Screenshot_2024-08-19_120808-removebg-preview.png";
 import point from "../../assets/point.png";
 import star from "../../assets/star.png";
 import image5 from "../../assets/4-2.jpg";
 
 const Product2 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mt-6 bg-[#f6f9ea] rounded-lg">
+    <div className="max-w-screen-xl mx-auto pt-6 bg-[#f6f9ea] rounded-lg">
       {/* <h1 className="text-2xl font-bold">Product</h1> */}
       {/* Image section  */}
       <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-4">
         <div>
           <img
-            className="md:w-60 rounded-lg"
+            className="md:w-60 w-full rounded-lg"
             src={image1}
             alt="product image"
           />
@@ -33,11 +34,11 @@ const Product2 = () => {
             <img className="w-6" src={star} alt="point" />
             <p className="text-2xl font-bold">KOJIC ACID</p>
           </div> */}
-          {/* <img
+          <img
               className="lg:w-60 rounded-lg"
-              src={image3}
+              src={image41}
               alt="product image"
-            /> */}
+            />
         </div>
         <div className="hidden md:block">
           <img
@@ -48,7 +49,7 @@ const Product2 = () => {
         </div>
       </div>
       {/* text section */}
-      <div className="">
+      <div className="p-4">
         <h2 className="text-center text-2xl font-semibold text-[#ed7e00]">
           Complete cure with potent power in antifungals
         </h2>
@@ -82,16 +83,16 @@ const Product2 = () => {
           </div>
         </div>
         {/* Image For mobile phone  */}
-        <div className="mt-8 md:hidden">
-          <img className="rounded-lg" src={image4} alt="" />
+        <div className="mt-8 md:hidden text-center">
+          <img className="rounded-lg inline" src={image4} alt="" />
         </div>
 
         {/* COMPOSITION */}
         <div className="mt-14">
-          <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-red-500 ">
+          <h3 className="text-2xl lg:max-w-[900px] px-4 mx-auto font-bold text-red-500 ">
             INDICATIONS
           </h3>
-          <div className="mt-5 lg:max-w-[900px] mx-auto flex flex-wrap gap-8 items-center ">
+          <div className="mt-5 px-4 lg:max-w-[900px] mx-auto flex flex-wrap gap-8 items-center ">
             <div className="flex gap-6 items-center">
               <img className="w-5" src={star} alt="point" />
               <p className="text-[17px]  font-bold">INTHYZOL CREAM INTHYZOL CREAM- Luliconazole is an Antifungal Medication The Fights.</p>
@@ -128,7 +129,7 @@ const Product2 = () => {
         </div>
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto mt-12">
+      <div className="lg:max-w-[900px] mx-auto p-4 mt-12">
         <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#00aeef]">
           Tinea pedis:
         </h3>

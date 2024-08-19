@@ -29,46 +29,78 @@ const Navbar = () => {
         }
       >
         <ul className="relative ">
-          <Link
-            to="/card"
-            className="flex uppercase items-center  font-bold gap-1"
-          >
+          <li className="flex uppercase items-center  gap-1">
             Product <IoIosArrowDown />
-          </Link>
+          </li>
           <ul className="absolute bg-white top-4 -left-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
             <div className="p-5 lg:w-96 ">
               <li className="flex flex-col gap-4">
                 <Link
-                  to="/product"
+                  to="/card"
                   className="text-sm font-semibold hover:text-[#f97c00]"
                 >
-                  INTHYSUN Aqua Gel – Unique New Generation Efficient
-                  Photostable Sunscreen (1)
+                  All Product
                 </Link>
-                <Link
+                <NavLink
                   to="/product1"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
-                  INTHYOU SOAP – Skin Lightening & Brightening Soap (2)
-                </Link>
-                <Link
+                  INTHYOU SOAP
+                </NavLink>
+                <NavLink
+                  to="/product"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
+                >
+                  INTHYSUN Aqua Gel
+                </NavLink>
+                <NavLink
                   to="/product2"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
-                  Product 3
-                </Link>
-                <Link
+                 INTHYZOL CREAM
+                </NavLink>
+                <NavLink
                   to="/product3"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
-                  Product 4
-                </Link>
-                <Link
+                  INTHYZOL SOAP
+                </NavLink>
+                <NavLink
                   to="/product4"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
-                  Product 5
-                </Link>
+                  INTHYZOL SHAMPOO
+                </NavLink>
                 <Link
                   to="/product5"
                   className="text-sm font-semibold hover:text-[#f97c00]"

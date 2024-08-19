@@ -1,14 +1,14 @@
-import image1 from "../../assets/2-2.png";
-import image2 from "../../assets/1.png";
-import image3 from "../../assets/5-252x300.png";
-import image4 from "../../assets/3-2.png";
+import image1 from "../../assets/2-2-removebg-preview.png";
+import image2 from "../../assets/1-removebg-preview.png";
+import image3 from "../../assets/5-252x300-removebg-preview.png";
+import image4 from "../../assets/3-2-removebg-preview.png";
 import point from "../../assets/point.png";
 import star from "../../assets/star.png";
 import image5 from "../../assets/4-2.jpg";
 
 const Product = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mt-6 bg-[#ffe9c9] rounded-lg">
+    <div className="max-w-screen-xl mx-auto pt-6 bg-[#ffe4bb] rounded-lg">
       {/* <h1 className="text-2xl font-bold">Product</h1> */}
       {/* Image section  */}
       <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-4">
@@ -18,6 +18,7 @@ const Product = () => {
             src={image1}
             alt="product image"
           />
+          <h1 className="text-center italic font-medium text-xl">Paraben Free</h1>
         </div>
         <div className="flex flex-col items-center justify-center gap-12">
           <img className="rounded-lg" src={image2} alt="product image" />
@@ -36,7 +37,7 @@ const Product = () => {
         </div>
       </div>
       {/* text section */}
-      <div className="mt-8">
+      <div className="mt-8 px-4">
         <h2 className="text-center text-2xl font-semibold text-[#ed7e00]">
           Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
         </h2>
@@ -155,7 +156,7 @@ const Product = () => {
         </div>
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto mt-12">
+      <div className="lg:max-w-[900px] mx-auto mt-12 px-4">
         <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#9c00ea]">
           DESCRIPTION
         </h3>
@@ -230,7 +231,7 @@ const Product = () => {
         </div>
       </div>
       {/* Image  */}
-      <div className="mt-8">
+      <div className="mt-8 ">
         <img className="rounded-lg" src={image5} alt="image " />
       </div>
     </div>

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import image1 from "../../assets/2-1.png";
-import image2 from "../../assets/1-1.png";
+import image2 from "../../assets/1-1-removebg-preview.png";
 import image4 from "../../assets/3-1.png";
 import point from "../../assets/point.png";
 // import star from "../../assets/star.png";
