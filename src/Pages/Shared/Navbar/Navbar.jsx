@@ -159,7 +159,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="border">
+    <nav className="border shadow-md sticky top-0 bg-white z-50">
       <div className="flex justify-between items-center  p-2 max-w-screen-xl mx-auto px-4">
         <div>
           <Link to="/">

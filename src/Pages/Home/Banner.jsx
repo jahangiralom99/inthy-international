@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="mt-6">
+    <div className="">
       <Swiper
         pagination={{
           type: "fraction",
