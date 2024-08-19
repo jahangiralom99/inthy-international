@@ -10,13 +10,13 @@ const AboutUs = () => {
         <div>
           <h1 className="text-2xl font-medium">ABOUT US:</h1>
           <p className="mt-4">
-            GM Trade International specially Skin Care Cosmetics Products
-            Importer company in Bangladesh, its Imports with a fresh, inventive
-            approach to Skin Care and is committed itself to provide efficient,
-            reliable products with high quality and safety profile while serving
-            the professionals. The company’s expertise focuses on the
-            formulation of highly effective, yet cosmetically elegant, skin care
-            treatments and also focuses on World Class Packaging.
+            Inthy International specially Skin Care Cosmetics Products Importer
+            company in Bangladesh, its Imports with a fresh, inventive approach
+            to Skin Care and is committed itself to provide efficient, reliable
+            products with high quality and safety profile while serving the
+            professionals. The company’s expertise focuses on the formulation of
+            highly effective, yet cosmetically elegant, skin care treatments and
+            also focuses on World Class Packaging.
           </p>
         </div>
         <div className="mt-8">

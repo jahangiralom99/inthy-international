@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../../assets/Logo-new.png";
+import logo from "../../../assets/WhatsApp Image 2024-08-19 at 18.56.57_1c51588e.jpg";
 import PhoneLogo from "../../../assets/phone.png";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
@@ -32,7 +32,7 @@ const Navbar = () => {
           <li className="flex uppercase items-center  gap-1">
             Product <IoIosArrowDown />
           </li>
-          <ul className="absolute bg-white top-4 -left-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
+          <ul className="absolute bg-white top-4 -left-4 mt-2 text-black z-[9] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
             <div className="p-5 lg:w-96 ">
               <li className="flex flex-col gap-4">
                 <NavLink
@@ -159,11 +159,11 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="border shadow-md sticky top-0 bg-white z-50">
+    <nav className="border shadow-md  bg-white z-50">
       <div className="flex justify-between items-center  p-2 max-w-screen-xl mx-auto px-4">
         <div>
           <Link to="/">
-            <img className="w-36" src={logo} alt="logo" />
+            <img className="w-40" src={logo} alt="logo" />
           </Link>
         </div>
         <div className="lg:flex gap-6 uppercase font-semibold hidden">
@@ -185,10 +185,10 @@ const Navbar = () => {
             ></div>
           )}
           <div
-            className={`absolute bg-[#f5f5f5] flex flex-col transition duration-500 delay-200 gap-5 border p-5 ${
+            className={`absolute bg-white z[9999] flex flex-col transition duration-500 delay-200 gap-5 border p-5 ${
               open
-                ? "w-[70%] md:w-[40%] h-full top-0 right-0 "
-                : "-left-56 top-0"
+                ? "w-[70%] md:w-[40%] bg-white h-full z[9999] top-0 right-0 "
+                : "-left-56 top-0 "
             }`}
           >
             {navLinks}

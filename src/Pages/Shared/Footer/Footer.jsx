@@ -60,9 +60,9 @@ const Footer = () => {
               7/16 Block -C, Tajmohol Road, Mohammadpur, Dhaka -1207
             </p>
           </div>
-          <h1 className="text-2xl mt-8 text-white">Pay With</h1>
-          <h1 className="text-2xl mt-4 text-white">Terms and Conditions</h1>
-          <h1 className="text-2xl mt-4 text-white">Privacy Policy</h1>
+          <h1 className="text-[17px] mt-8 text-white">Pay With</h1>
+          <h1 className="text-[17px] mt-4 text-white">Terms and Conditions</h1>
+          <h1 className="text-[17px] mt-4 text-white">Privacy Policy</h1>
           <hr className="mt-5" />
         </div>
         {/* Pay With
