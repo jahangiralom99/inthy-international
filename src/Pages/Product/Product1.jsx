@@ -47,12 +47,12 @@ const Product1 = () => {
         </div>
       </div>
       {/* text section */}
-      <div className="mt-8">
+      <div className="mt-6">
         <h2 className="text-center text-2xl font-semibold text-[#ed7e00]">
           Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
         </h2>
         {/* INDICATIONS text  */}
-        <div className="flex flex-col lg:max-w-[900px] mx-auto mt-8 gap-4">
+        <div className="flex flex-col lg:max-w-[900px] mx-auto mt-6 gap-4">
           <h3 className="text-2xl pl-3 font-bold text-red-500">INDICATIONS</h3>
           {/* icon and text */}
           <div className="space-y-5 px-4">
@@ -125,7 +125,7 @@ const Product1 = () => {
         </div>
 
         {/* COMPOSITION */}
-        <div className="mt-14 px-4">
+        <div className="mt-8 px-4 md:ml-6">
           <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-red-500 ">
             INDICATIONS
           </h3>
@@ -166,7 +166,7 @@ const Product1 = () => {
         </div>
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto mt-12 px-4">
+      <div className="lg:max-w-[900px] mx-auto mt-6 px-4">
         <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#9c00ea]">
           DESCRIPTION
         </h3>
@@ -176,11 +176,11 @@ const Product1 = () => {
           the body. Furthermore, this type of soap Works by removing the dead
           calls on your face or body and giving it a fresh look.
         </p>
-        <h3 className="text-2xl mt-12 lg:max-w-[900px] mx-auto font-bold text-[#9c00ea9e]">
+        <h3 className="text-2xl mt-6 lg:max-w-[900px] mx-auto font-bold text-[#9c00ea9e]">
           INGREDIENTS
         </h3>
         <div>
-          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Kojic Acid Dipalmitate:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -191,7 +191,7 @@ const Product1 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Vitamin E:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -202,7 +202,7 @@ const Product1 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl mt-6 lg:max-w-[900px] mx-auto font-semibold">
             L-Glutathione:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -213,7 +213,7 @@ const Product1 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#821a1a] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#821a1a] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             DIRECTION OF USE
           </h4>
           <p className="mt-3 text-slate-600">
@@ -224,7 +224,7 @@ const Product1 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-red-500 mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-red-500 mt-6 lg:max-w-[900px] mx-auto font-semibold">
             WARNINIGS
           </h4>
           <p className="mt-3 text-slate-600">
@@ -235,7 +235,7 @@ const Product1 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#0019bc] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#0019bc] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             SUPPLY : 75gm Per PACK.
           </h4>
         </div>

@@ -13,7 +13,7 @@ const Product4 = () => {
       <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-4">
         <div>
           <img
-            className="md:w-60 rounded-lg"
+            className="md:w-60 w-full rounded-lg"
             src={image1}
             alt="product image"
           />
@@ -106,7 +106,7 @@ const Product4 = () => {
         </div>
         {/* Image For mobile phone  */}
         <div className="mt-8 md:hidden">
-          <img className="rounded-lg" src={image4} alt="" />
+          <img className="rounded-lg w-full" src={image4} alt="" />
         </div>
 
         {/* COMPOSITION */}
@@ -230,7 +230,7 @@ const Product4 = () => {
         </div>
       </div>
       {/* Image  */}
-      <div className="mt-8">
+      <div className="mt-8 px-4 md:px-0">
         <img className="rounded-lg w-full" src={image5} alt="image " />
       </div>
     </div>

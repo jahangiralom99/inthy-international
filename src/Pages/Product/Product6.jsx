@@ -1,20 +1,20 @@
 /* eslint-disable react/no-unescaped-entities */
-import image1 from "../../assets/2-1.png";
-import image2 from "../../assets/1-1-removebg-preview.png";
-import image4 from "../../assets/3-1.png";
+import image1 from "../../assets/Screenshot_2024-08-19_134643-removebg-preview.png";
+import image2 from "../../assets/Screenshot_2024-08-19_134623-removebg-preview.png";
+import image4 from "../../assets/Screenshot_2024-08-19_134705-removebg-preview.png";
 import point from "../../assets/point.png";
 // import star from "../../assets/star.png";
 import image5 from "../../assets/Screenshot 2024-08-17 171531.png";
 
 const Product6 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mt-6 bg-white rounded-lg">
+    <div className="max-w-screen-xl mx-auto mt-6 shadow-lg bg-white rounded-lg">
       {/* <h1 className="text-2xl font-bold">Product</h1> */}
       {/* Image section  */}
-      <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-4">
+      <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-8">
         <div>
           <img
-            className="md:w-60 rounded-lg"
+            className="md:w-60 w-full rounded-lg"
             src={image1}
             alt="product image"
           />
@@ -56,7 +56,7 @@ const Product6 = () => {
         </div>
       </div>
       {/* text section */}
-      <div className="mt-8">
+      <div className="mt-8 px-4">
         <h2 className="text-center text-2xl font-semibold text-[#ed7e00]">
           Glow & Shine Skin Lightening For All skin Types
         </h2>
@@ -127,7 +127,7 @@ const Product6 = () => {
         </div>
         {/* Image For mobile phone  */}
         <div className="mt-8 md:hidden">
-          <img className="rounded-lg" src={image4} alt="" />
+          <img className="rounded-lg w-full" src={image4} alt="" />
         </div>
 
         {/* COMPOSITION */}
@@ -170,7 +170,7 @@ const Product6 = () => {
         </div> */}
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto mt-12">
+      <div className="lg:max-w-[900px] mx-auto mt-8 px-4">
         <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#00a54f]">
           DESCRIPTION :
         </h3>
@@ -180,7 +180,7 @@ const Product6 = () => {
           Tone. Regular Use Of INTHIGLOW Face Wash Will Help To Achieve Desired
           Skin Complexion.
         </p>
-        <h3 className="text-2xl mt-12 lg:max-w-[900px] mx-auto font-bold text-[#ed028c]">
+        <h3 className="text-2xl mt-8 lg:max-w-[900px] mx-auto font-bold text-[#ed028c]">
           INGREDIENTS:
         </h3>
         <p className="mt-3 text-slate-600 font-bold">
@@ -191,7 +191,7 @@ const Product6 = () => {
           Methylchloroisothiazolinone And Methylisothiazolinone, Fragrance.
         </p>
         <div>
-          <h4 className="text-xl text-[#ee1d23] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#ee1d23] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Kojic Acid Dipalmitate:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -202,7 +202,7 @@ const Product6 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl mt-12 text-[#303293] lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl mt-6 text-[#303293] lg:max-w-[900px] mx-auto font-semibold">
             Arbutin:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -212,7 +212,7 @@ const Product6 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#00a54f] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#00a54f] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Licorise extract:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -223,7 +223,7 @@ const Product6 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#ed1494] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#ed1494] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Vitamin C
           </h4>
           <p className="mt-3 text-slate-600">
@@ -234,7 +234,7 @@ const Product6 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#822890] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#822890] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             L-glutathione:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -246,7 +246,7 @@ const Product6 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#2e3092] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#2e3092] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Glycolic acid:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -262,7 +262,7 @@ const Product6 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-red-500 mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-red-500 mt-6 lg:max-w-[900px] mx-auto font-semibold">
             DIRECTION OF USE:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -284,14 +284,14 @@ const Product6 = () => {
           </p>
         </div> */}
         <div>
-          <h4 className="text-xl text-[#9c2f35] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#9c2f35] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             SUPPLY : 60ml per tube.
           </h4>
         </div>
       </div>
       {/* Image  */}
-      <div className="mt-8">
-        <img className="rounded-lg" src={image5} alt="image " />
+      <div className="mt-8 px-4 md:px-0">
+        <img className="rounded-lg w-full" src={image5} alt="image " />
       </div>
     </div>
   );

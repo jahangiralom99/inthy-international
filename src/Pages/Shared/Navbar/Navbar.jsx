@@ -35,12 +35,18 @@ const Navbar = () => {
           <ul className="absolute bg-white top-4 -left-4 mt-2 text-black z-[999] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg border">
             <div className="p-5 lg:w-96 ">
               <li className="flex flex-col gap-4">
-                <Link
+                <NavLink
                   to="/card"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
                   All Product
-                </Link>
+                </NavLink>
                 <NavLink
                   to="/product1"
                   className={({ isActive, isPending }) =>
@@ -51,7 +57,7 @@ const Navbar = () => {
                       : " hover:text-[#f97c00] group"
                   }
                 >
-                  INTHYOU SOAP
+                  INTHYON SOAP
                 </NavLink>
                 <NavLink
                   to="/product"
@@ -75,7 +81,7 @@ const Navbar = () => {
                       : " hover:text-[#f97c00] group"
                   }
                 >
-                 INTHYZOL CREAM
+                  INTHYZOL CREAM
                 </NavLink>
                 <NavLink
                   to="/product3"
@@ -101,18 +107,30 @@ const Navbar = () => {
                 >
                   INTHYZOL SHAMPOO
                 </NavLink>
-                <Link
+                <NavLink
                   to="/product5"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
-                  Product 6
-                </Link>
-                <Link
+                  INTHYGLOW CREAM
+                </NavLink>
+                <NavLink
                   to="/product6"
-                  className="text-sm font-semibold hover:text-[#f97c00]"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group text-[#f97c00]"
+                      : " hover:text-[#f97c00] group"
+                  }
                 >
-                  Product 7
-                </Link>
+                  INTHYGLOW FACEWASH
+                </NavLink>
               </li>
             </div>
           </ul>

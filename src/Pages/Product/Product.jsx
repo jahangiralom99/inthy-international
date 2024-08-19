@@ -18,7 +18,9 @@ const Product = () => {
             src={image1}
             alt="product image"
           />
-          <h1 className="text-center italic font-medium text-xl">Paraben Free</h1>
+          <h1 className="text-center italic font-medium text-xl">
+            Paraben Free
+          </h1>
         </div>
         <div className="flex flex-col items-center justify-center gap-12">
           <img className="rounded-lg" src={image2} alt="product image" />
@@ -37,13 +39,13 @@ const Product = () => {
         </div>
       </div>
       {/* text section */}
-      <div className="mt-8 px-4">
+      <div className="mt-6 px-4">
         <h2 className="text-center text-2xl font-semibold text-[#ed7e00]">
           Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
         </h2>
         {/* INDICATIONS text  */}
-        <div className="flex flex-col lg:items-center lg:justify-center mt-8 gap-4">
-          <h3 className="text-2xl font-bold text-red-500">INDICATIONS</h3>
+        <div className="flex flex-col lg:max-w-[900px] mx-auto mt-8 gap-4">
+          <h3 className="text-2xl font-bold text-red-500 px-4">INDICATIONS</h3>
           {/* icon and text */}
           <div className="space-y-5 px-4">
             <div className="flex gap-3 items-center">
@@ -115,7 +117,7 @@ const Product = () => {
         </div>
 
         {/* COMPOSITION */}
-        <div className="mt-14">
+        <div className="mt-8 md:ml-6">
           <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-red-500 ">
             INDICATIONS
           </h3>
@@ -156,7 +158,7 @@ const Product = () => {
         </div>
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto mt-12 px-4">
+      <div className="lg:max-w-[900px] mx-auto mt-8 px-4">
         <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#9c00ea]">
           DESCRIPTION
         </h3>
@@ -166,11 +168,11 @@ const Product = () => {
           the body. Furthermore, this type of soap Works by removing the dead
           calls on your face or body and giving it a fresh look.
         </p>
-        <h3 className="text-2xl mt-12 lg:max-w-[900px] mx-auto font-bold text-[#9c00ea9e]">
+        <h3 className="text-2xl mt-6 lg:max-w-[900px] mx-auto font-bold text-[#9c00ea9e]">
           INGREDIENTS
         </h3>
         <div>
-          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl mt-6 lg:max-w-[900px] mx-auto font-semibold">
             Kojic Acid Dipalmitate:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -181,8 +183,8 @@ const Product = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
-          Vitamin E:
+          <h4 className="text-xl mt-6 lg:max-w-[900px] mx-auto font-semibold">
+            Vitamin E:
           </h4>
           <p className="mt-3 text-slate-600">
             A skin whitening soap works by removing melanin from your skin’s
@@ -192,8 +194,8 @@ const Product = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl mt-12 lg:max-w-[900px] mx-auto font-semibold">
-          L-Glutathione:
+          <h4 className="text-xl mt-6 lg:max-w-[900px] mx-auto font-semibold">
+            L-Glutathione:
           </h4>
           <p className="mt-3 text-slate-600">
             A skin whitening soap works by removing melanin from your skin’s
@@ -203,8 +205,8 @@ const Product = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#821a1a] mt-12 lg:max-w-[900px] mx-auto font-semibold">
-          DIRECTION OF USE
+          <h4 className="text-xl text-[#821a1a] mt-6 lg:max-w-[900px] mx-auto font-semibold">
+            DIRECTION OF USE
           </h4>
           <p className="mt-3 text-slate-600">
             A skin whitening soap works by removing melanin from your skin’s
@@ -214,8 +216,8 @@ const Product = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-red-500 mt-12 lg:max-w-[900px] mx-auto font-semibold">
-          WARNINIGS
+          <h4 className="text-xl text-red-500 mt-6 lg:max-w-[900px] mx-auto font-semibold">
+            WARNINIGS
           </h4>
           <p className="mt-3 text-slate-600">
             A skin whitening soap works by removing melanin from your skin’s
@@ -225,8 +227,8 @@ const Product = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-[#0019bc] mt-12 lg:max-w-[900px] mx-auto font-semibold">
-          SUPPLY : 75gm Per PACK.
+          <h4 className="text-xl text-[#0019bc] mt-6 lg:max-w-[900px] mx-auto font-semibold">
+            SUPPLY : 75gm Per PACK.
           </h4>
         </div>
       </div>

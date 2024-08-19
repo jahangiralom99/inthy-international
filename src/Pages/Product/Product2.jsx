@@ -54,7 +54,7 @@ const Product2 = () => {
           Complete cure with potent power in antifungals
         </h2>
         {/* INDICATIONS text  */}
-        <div className="flex flex-col lg:max-w-[900px] mx-auto mt-8 gap-4">
+        <div className="flex flex-col lg:max-w-[900px] mx-auto mt-6 gap-4">
           <h3 className="text-2xl font-bold text-red-500">HIGHLY EFFECTIVE IN :</h3>
           {/* icon and text */}
           <div className="space-y-5 px-4">
@@ -88,7 +88,7 @@ const Product2 = () => {
         </div>
 
         {/* COMPOSITION */}
-        <div className="mt-14">
+        <div className="mt-6">
           <h3 className="text-2xl lg:max-w-[900px] px-4 mx-auto font-bold text-red-500 ">
             INDICATIONS
           </h3>
@@ -129,7 +129,7 @@ const Product2 = () => {
         </div>
       </div>
       {/* DESCRIPTION */}
-      <div className="lg:max-w-[900px] mx-auto p-4 mt-12">
+      <div className="lg:max-w-[900px] mx-auto p-4 mt-3">
         <h3 className="text-2xl lg:max-w-[900px] mx-auto font-bold text-[#00aeef]">
           Tinea pedis:
         </h3>
@@ -155,7 +155,7 @@ const Product2 = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-2xl mt-12 lg:max-w-[900px] text-[#702b91] mx-auto font-bold">
+          <h4 className="text-2xl mt-6 lg:max-w-[900px] text-[#702b91] mx-auto font-bold">
             Other classic features of tinea Corporis include:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -170,7 +170,7 @@ const Product2 = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-2xl mt-12 lg:max-w-[900px] text-[#ed2d9b] mx-auto font-bold">
+          <h4 className="text-2xl mt-6 lg:max-w-[900px] text-[#ed2d9b] mx-auto font-bold">
             Tinea Versicolor:
           </h4>
           <p className="mt-3 text-slate-600">
@@ -186,7 +186,7 @@ const Product2 = () => {
         </div>
 
         <div>
-          <h4 className="text-xl text-[#821a1a] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#821a1a] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             DIRECTION OF USE
           </h4>
           <p className="mt-3 text-slate-600">
@@ -208,7 +208,7 @@ const Product2 = () => {
           </p>
         </div> */}
         <div>
-          <h4 className="text-xl text-[#0019bc] mt-12 lg:max-w-[900px] mx-auto font-semibold">
+          <h4 className="text-xl text-[#0019bc] mt-6 lg:max-w-[900px] mx-auto font-semibold">
             SUPPLY : 30gm per tube.
           </h4>
           <p className="mt-3 text-slate-600">
@@ -218,7 +218,7 @@ const Product2 = () => {
         </div>
       </div>
       {/* Image  */}
-      <div className="mt-8">
+      <div className="mt-6">
         <img className="rounded-lg" src={image5} alt="image " />
       </div>
     </div>

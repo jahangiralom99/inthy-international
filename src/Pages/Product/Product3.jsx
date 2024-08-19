@@ -15,7 +15,7 @@ const Product3 = () => {
       <div className="flex flex-col md:flex-row gap-6 pt-12 justify-between p-4">
         <div>
           <img
-            className="md:w-60 rounded-lg"
+            className="md:w-60 w-full rounded-lg"
             src={image1}
             alt="product image"
           />
