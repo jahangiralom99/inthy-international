@@ -13,7 +13,7 @@ const Footer = () => {
           <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
-          <p className="text-white text-[17px] mt-8 font-semibold">
+          <p className="text-white text-[17px] mt-8">
             Inthy International has been in the retail trade of stylish and
             affordable watches for about 5 years. Currenofficial.com.bd has been
             able to provide its customers the best prices, selections and
@@ -44,19 +44,19 @@ const Footer = () => {
           <h1 className="text-2xl text-white font-bold">Contact Us</h1>
           <div className="mt-8 flex gap-4 items-center">
             <img className="w-6" src={point} alt="point" />
-            <p className="text-white text-[17px]  font-semibold">
+            <p className="text-white text-[17px] ">
               md.humayunkabir282@yahoo.com
             </p>
           </div>
           <div className="mt-8 flex gap-4 items-center">
             <img className="w-6" src={point} alt="point" />
-            <p className="text-white text-[17px]  font-semibold">
+            <p className="text-white text-[17px]  ">
               01925921227 , 01675957881
             </p>
           </div>
           <div className="mt-8 flex gap-4 items-center">
             <img className="w-6" src={point} alt="point" />
-            <p className="text-white text-[17px]  font-semibold">
+            <p className="text-white text-[17px]  ">
               7/16 Block -C, Tajmohol Road, Mohammadpur, Dhaka -1207
             </p>
           </div>
